@@ -1,0 +1,38 @@
+/* @noSnoop */
+
+.icon-icons-x16-files-html:before {
+  display: inline-block;
+  vertical-align: text-top;
+  content: '';
+  background: url(/module/themeX1Studio/sprite/sprite.png?ts=1600935214597) -34px 0px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icons-x16-files-html > img { display: none; }
+.icon-icons-x16-web:before {
+  display: inline-block;
+  vertical-align: text-top;
+  content: '';
+  background: url(/module/themeX1Studio/sprite/sprite.png?ts=1600935214597) 0px -34px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icons-x16-web > img { display: none; }
+.icon-icons-x16-workbench:before {
+  display: inline-block;
+  vertical-align: text-top;
+  content: '';
+  background: url(/module/themeX1Studio/sprite/sprite.png?ts=1600935214597) -18px -34px;
+  width: 16px;
+  height: 16px;
+}
+.icon-icons-x16-workbench > img { display: none; }
+.icon-icons-x32-workbench:before {
+  display: inline-block;
+  vertical-align: text-top;
+  content: '';
+  background: url(/module/themeX1Studio/sprite/sprite.png?ts=1600935214597) 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-icons-x32-workbench > img { display: none; }

@@ -1,0 +1,5 @@
+Manifest-Version: 1.0
+Implementation-Version: 4.9.0.1.1.1
+Sealed: true
+Implementation-Vendor: X1Studio
+

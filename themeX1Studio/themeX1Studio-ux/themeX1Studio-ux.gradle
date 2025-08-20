@@ -1,0 +1,31 @@
+/* Module Build File */
+
+description     = "Custom Theme for Nav Bar"
+ext {
+  name            = "themeX1Studio"
+  project.group   = "X1Studio"
+  project.version = "4.9.0.1.1.1"
+}
+niagaraModule {
+  moduleName = "themeX1Studio"
+  preferredSymbol = "tn"
+  runtimeProfile = "ux"
+}
+
+jar {
+  from('src') {
+    include 'fonts/'
+    include 'fx/'
+    include 'hx/'
+    include 'imageOverrides/**/*.png'
+    include 'less/**/*.*'
+    include 'nss/'
+    include 'sprite/'
+    include 'ux/'
+  }
+  from ('.') {
+    include 'cssTemplate.mustache'
+    include 'Gruntfile.js'
+    include 'package.json'
+  }
+}

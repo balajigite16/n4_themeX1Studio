@@ -1,0 +1,33 @@
+{
+  "name": "themeX1Studio-ux",
+  "description": "",
+  "version": "0.1.0",
+  "homepage": "http://www.niagara-central.com",
+  "author": {
+    "name": "X1Studio",
+    "email": "brg@gmail.com"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "Niagara",
+      "url": "http://www.niagara-central.com/blob/master/LICENSE-Niagara"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-beep": "^1.0.1",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-imagemin": "^1.0.1",
+    "grunt-contrib-less": "^1.4.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-spritesmith": "^6.4.0",
+    "pixelsmith": "^2.1.1"
+  },
+  "keywords": []
+}

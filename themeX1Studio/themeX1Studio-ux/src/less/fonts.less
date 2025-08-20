@@ -1,0 +1,115 @@
+@import (reference) './mixins.less';
+
+@fonts-path: '/module/themeX1Studio/fonts/';
+
+.font-family() {
+  font-family: "Source Sans Pro", SourceSansPro, sans-serif;
+}
+
+.font-size(@val) {
+  font-size: ~"@{val}px";
+}
+
+.default-font() {
+  .font-family;
+  font-size:16px;
+}
+
+@font-face {
+  .font-face('SourceSansPro', @fonts-path, 'SourceSansPro-Regular', normal, ~"local('Source Sans Pro'), local('SourceSansPro'), local('Source Sans Pro Regular'), local('SourceSansPro-Regular')");
+}
+@font-face {
+  .font-face('SourceSansPro', @fonts-path, 'SourceSansPro-Semibold', bold, ~"local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold')");
+}
+@font-face {
+  .font-face('SourceSansPro', @fonts-path, 'SourceSansPro-Light', 100, ~"local('Source Sans Pro Light'), local('SourceSansPro-Light')");
+}
+
+@font-face {
+  .font-face('Source Sans Pro', @fonts-path, 'SourceSansPro-Regular', normal, ~"local('Source Sans Pro'), local('SourceSansPro'), local('Source Sans Pro Regular'), local('SourceSansPro-Regular')");
+}
+@font-face {
+  .font-face('Source Sans Pro', @fonts-path, 'SourceSansPro-Semibold', bold, ~"local('Source Sans Pro Semibold'), local('SourceSansPro-Semibold')");
+}
+@font-face {
+  .font-face('Source Sans Pro', @fonts-path, 'SourceSansPro-Light', 100, ~"local('Source Sans Pro Light'), local('SourceSansPro-Light')");
+}
+
+@font-face {
+  .font-face('DMSans', @fonts-path, 'DMSans-Regular', normal, ~"local('DMSans Regular'), local('DMSans-Regular')");
+}
+
+
+
+//Adding new Inter Font
+/* @font-face {
+  .font-face('Inter', @fonts-path, 'Inter-VariableFont_slnt,wght', 500, ~"local('Inter Variable Font slnt wght'), local('Inter-VariableFont_slnt,wght')");
+} */
+
+@font-face {
+  .font-face('Inter', @fonts-path, 'Inter-Regular', normal, ~"local('Inter Regular'), local('Inter-Regular')");
+}
+
+@font-face {
+  .font-face('Inter SemiBold', @fonts-path, 'Inter-SemiBold', bold, ~"local('Inter SemiBold'), local('Inter-SemiBold')");
+}
+
+@font-face {
+  .font-face('Inter Light', @fonts-path, 'Inter-Light', 100, ~"local('Inter Light'), local('Inter-Light')");
+}
+
+@font-face {
+  .font-face('Inter Black', @fonts-path, 'Inter-Black', 900, ~"local('Inter Black'), local('Inter-Black')");
+}
+
+@font-face {
+  .font-face('Inter Bold', @fonts-path, 'Inter-Bold', 700, ~"local('Inter Bold'), local('Inter-Bold')");
+}
+
+@font-face {
+  .font-face('Inter ExtraBold', @fonts-path, 'Inter-ExtraBold', 800, ~"local('Inter ExtraBold'), local('Inter-ExtraBold')");
+}
+
+@font-face {
+  .font-face('Inter ExtraLight', @fonts-path, 'Inter-ExtraLight', 200, ~"local('Inter ExtraLight'), local('Inter-ExtraLight')");
+}
+
+@font-face {
+  .font-face('Inter Medium', @fonts-path, 'Inter-Medium', 300, ~"local('Inter Medium'), local('Inter-Medium')");
+}
+
+@font-face {
+  .font-face('Inter Thin', @fonts-path, 'Inter-Thin', 100, ~"local('Inter Thin'), local('Inter-Thin')");
+}
+
+
+//adding new font inter
+/* @font-face {
+  .font-face('Inter', @fonts-path, 'Inter-VariableFont_slnt,wght', 100, ~"local('Inter Variable Font slnt wght'), local('Inter-VariableFont_slnt,wght')");
+} */
+
+/* @font-face {
+  .font-face('Inter', @fonts-path, 'Inter-Regular', normal, ~"local('Inter Regular'), local('Inter-Regular')");
+}
+
+@font-face {
+  .font-face('Inter SemiBold', @fonts-path, 'Inter-SemiBold', bold, ~"local('Inter SemiBold'), local('Inter-SemiBold')");
+}
+
+@font-face {
+  .font-face('Inter Light', @fonts-path, 'Inter-Light', 100, ~"local('Inter Light'), local('Inter-Light')");
+} */
+
+
+@font-face {
+  .font-face('NotoSansDevanagari', @fonts-path, 'NotoSansDevanagari-VariableFont_wdth,wght', 100, ~"local('Noto Sans Devanagari Variable Font wdth wght'), local('NotoSansDevanagari-VariableFont_wdth,wght')");
+}
+
+@font-face {
+  .font-face('Noto Sans Devanagari', @fonts-path, 'NotoSansDevanagari-VariableFont_wdth,wght', normal, ~"local('Noto Sans Devanagari Variable Font wdth wght'), local('NotoSansDevanagari-VariableFont_wdth,wght')");
+}
+
+.defaultNssFont() {
+  .font-family();
+  font-size: 12px;
+}
