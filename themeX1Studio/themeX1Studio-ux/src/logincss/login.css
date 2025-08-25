@@ -1,0 +1,44 @@
+/*Login form container style*/
+#login-form {
+  float: right;
+}
+#login-form #username {
+  margin-bottom: -1px;
+}
+#login-form #password {
+  margin-bottom: 10px;
+}
+
+#login-form #login-submit{
+  color: #fff;
+  background-color: #0055aa;
+  border-color: #2e6da4;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  display: block;
+}
+
+#login-form-container {
+  background-color: white;
+  font-size: medium;
+  font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+}
+#login-title-container #login-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: black;
+}
+#login-title-container {
+  background: linear-gradient(to left, #1dade2, #bae6de);
+}
+#login-logo-container{
+  margin-bottom: 1.5em;
+}
+/*End Login form container style*/
+
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background: linear-gradient(to right, #1dade2, #bae6de);
+  background-position: center;
+}

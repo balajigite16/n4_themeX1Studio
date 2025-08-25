@@ -18,10 +18,14 @@ jar {
     include 'fx/'
     include 'hx/'
     include 'imageOverrides/**/*.png'
+    include 'images/**/*.png'
+    include 'imageOverrides/*.*'
+    include 'images/*.*'
     include 'less/**/*.*'
     include 'nss/'
     include 'sprite/'
     include 'ux/'
+    include 'logincss/'
   }
   from ('.') {
     include 'cssTemplate.mustache'
